@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:ital,wght@1,300&display=swap');
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+	background-color: #6495ED;
+	background-image: url(sea-water-nature-ocean-diving-underwater-716419-pxhere.com.jpg);
+}
+
+.header {
+	height: 80px;
+	background-color: #1338BE;
+	border-bottom-width: medium;
+	border-bottom-style: solid;
+	border-bottom-color: #303;
+    min-width: 100%;
+}
+
+.footer {
+	height: 40px;
+	background-color: #1338BE;
+	border-top-width: medium;
+	border-top-style: solid;
+	border-top-color: #303;
+    min-width: 100%;
+	color: #FFF;
+}
+
+.footer p {
+	margin-left: 20px;
+}
+
+.footer a {
+	color: #FFF;
+}
+
+.header_logo {
+	float: left;
+}
+
+/* This determines the location of the buttons */
+.nav_buttons {
+	width: 470px;
+	float: left;
+	padding-left: 23px;
+	padding-top: 8px;
+}
+
+.right_buttons {
+	width: 300px;
+	float: right;
+	padding-left: 23px;
+	padding-top: 8px;
+}
+
+.right_buttons .right {
+	color: #F00;
+}
+
+/* The buttons on the header */
+ul.nav {
+	margin-left: 0px;
+	padding-left: 0px;
+	list-style: none;	
+}
+
+ul.nav li {
+	display: inline;
+}
+
+.nav a {
+	display: inline-block;
+	border: 1px solid #CCC;
+	padding: 5px 15px 5px 15px;
+	background-color: #EAEAEA;
+	text-decoration: none;
+	color: #069;
+	width: 80px;
+	margin-left: -1px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+.nav a:hover {
+	background-color: #CCC;
+	color: #06F;
+}
+
+.left {
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+.right {
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+/**This is the main body of the website. */
+.content {
+	width: 1000px;
+	height: 800px;
+	top-margin: -2px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #CCC;
+	border-left: medium solid #000;
+	border-right: medium solid #000;
+	font-family: 'Oswald', sans-serif;
+}
+
+.box {
+	float: left;
+	width: 419px;
+	height: 419px;
+	background-color: #3CF;
+	border: medium solid #03C;	
+	background-image: url(watercolor-acrylic-artistic-brush-graphic-grunge-1641330-pxhere.com.jpg);
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+.content .box h1 {
+	font-size: 36px;	
+}
+
+.content .box {
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: justify;
+}
+
+.lower_content {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.lower_content p {
+	font-size: 18px;
+	font-weight: normal;
+}
